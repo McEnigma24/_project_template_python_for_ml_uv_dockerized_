@@ -2,7 +2,7 @@
 export PATH="/workspace/bin:/workspace/build/venv/bin:/root/.local/bin:${PATH}"
 _extra="${PYTHONPATH_EXTRA:-}"
 if [[ -n "${_extra}" ]]; then
-  export PYTHONPATH="/workspace:${_extra}"
+  export PYTHONPATH="/workspace/src:${_extra}"
 else
-  export PYTHONPATH="/workspace"
+  export PYTHONPATH="/workspace/src"
 fi

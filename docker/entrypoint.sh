@@ -40,7 +40,7 @@ print_banner() {
 === ML dev shell (${PROJECT_NAME:-project}) ===
   tb         TensorBoard w tle  -> http://127.0.0.1:${TENSORBOARD_PORT:-6006}/
   jnb        Jupyter Lab w tle  -> http://127.0.0.1:${JUPYTER_PORT:-8888}/
-  run_main   python main.py (pierwszy plan)
+  run_main   python src/main.py (pierwszy plan)
   tb|jnb: stop | status | logs
   exit       zamyka kontener (pierwszy terminal)
 

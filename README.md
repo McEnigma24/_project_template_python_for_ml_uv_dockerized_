@@ -15,7 +15,7 @@ Jeden workflow: **zawsze** wchodzisz do środowiska przez `./shell.sh`, reszta d
 ./shell.sh          # porty 8888 (Jupyter) i 6006 (TensorBoard) na hoście
 tb                  # TensorBoard w tle
 jnb                 # Jupyter Lab w tle
-run_main            # python main.py (Ctrl+C kończy tylko ten skrypt)
+run_main            # python src/main.py (Ctrl+C kończy tylko ten skrypt)
 exit                # pierwszy terminal — zamyka kontener i serwisy w tle
 ```
 
